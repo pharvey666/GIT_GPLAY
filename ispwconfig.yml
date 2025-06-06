@@ -1,0 +1,192 @@
+!!com.compuware.ispw.wzzms.models.IspwRoot
+ispwApplication:
+  application: GPLAY
+  encryptionProtocol: None
+  host: cw06.bmc.com
+  hostCodePage: '1047'
+  pathMappings:
+  - path: \AMAC
+    types:
+    - fileExtension: amac
+      ispwType: AMAC
+  - path: \ASM
+    types:
+    - fileExtension: asm
+      ispwType: ASM
+  - path: \ASUB
+    types:
+    - fileExtension: asub
+      ispwType: ASUB
+  - path: \C
+    types:
+    - fileExtension: c
+      ispwType: C
+  - path: \CCOB
+    types:
+    - fileExtension: ccob
+      ispwType: CCOB
+  - path: \CLST
+    types:
+    - fileExtension: clst
+      ispwType: CLST
+  - path: \CMAP
+    types:
+    - fileExtension: cmap
+      ispwType: CMAP
+  - path: \COB
+    types:
+    - fileExtension: cob
+      ispwType: COB
+  - path: \COPY
+    types:
+    - fileExtension: copy
+      ispwType: COPY
+  - path: \DATA
+    types:
+    - fileExtension: data
+      ispwType: DATA
+  - path: \DBRM
+    types:
+    - fileExtension: dbrm
+      ispwType: DBRM
+  - path: \DCLG
+    types:
+    - fileExtension: dclg
+      ispwType: DCLG
+  - path: \DDL
+    types:
+    - fileExtension: ddl
+      ispwType: DDL
+  - path: \DJOB
+    types:
+    - fileExtension: djob
+      ispwType: DJOB
+  - path: \DOCJ
+    types:
+    - fileExtension: docj
+      ispwType: DOCJ
+  - path: \DOCP
+    types:
+    - fileExtension: docp
+      ispwType: DOCP
+  - path: \DSCT
+    types:
+    - fileExtension: dsct
+      ispwType: DSCT
+  - path: \FORT
+    types:
+    - fileExtension: fort
+      ispwType: FORT
+  - path: \H
+    types:
+    - fileExtension: h
+      ispwType: H
+  - path: \INCL
+    types:
+    - fileExtension: incl
+      ispwType: INCL
+  - path: \JAR
+    types:
+    - fileExtension: JAR
+      ispwType: JAR
+  - path: \JCL
+    types:
+    - fileExtension: jcl
+      ispwType: JCL
+  - path: \JCLT
+    types:
+    - fileExtension: jclt
+      ispwType: JCLT
+  - path: \JOB
+    types:
+    - fileExtension: job
+      ispwType: JOB
+  - path: \JOBT
+    types:
+    - fileExtension: jobt
+      ispwType: JOBT
+  - path: \LCTL
+    types:
+    - fileExtension: lctl
+      ispwType: LCTL
+  - path: \LINK
+    types:
+    - fileExtension: lnk
+      ispwType: LINK
+  - path: \LIST
+    types:
+    - fileExtension: list
+      ispwType: LIST
+  - path: \LKED
+    types:
+    - fileExtension: lked
+      ispwType: LKED
+  - path: \LOAD
+    types:
+    - fileExtension: load
+      ispwType: LOAD
+  - path: \MAN
+    types:
+    - fileExtension: man
+      ispwType: MAN
+  - path: \MSGS
+    types:
+    - fileExtension: msgs
+      ispwType: MSGS
+  - path: \NOTE
+    types:
+    - fileExtension: note
+      ispwType: NOTE
+  - path: \OBJ
+    types:
+    - fileExtension: obj
+      ispwType: OBJ
+  - path: \PANL
+    types:
+    - fileExtension: panl
+      ispwType: PANL
+  - path: \PARM
+    types:
+    - fileExtension: parm
+      ispwType: PARM
+  - path: \PLAN
+    types:
+    - fileExtension: plan
+      ispwType: PLAN
+  - path: \PLI
+    types:
+    - fileExtension: pli
+      ispwType: PLI
+  - path: \PROC
+    types:
+    - fileExtension: proc
+      ispwType: PROC
+  - path: \PSUB
+    types:
+    - fileExtension: psub
+      ispwType: PSUB
+  - path: \PYT
+    types:
+    - fileExtension: py
+      ispwType: PYT
+  - path: \SKEL
+    types:
+    - fileExtension: skel
+      ispwType: SKEL
+  - path: \TABL
+    types:
+    - fileExtension: tabl
+      ispwType: TABL
+  - path: \TEXT
+    types:
+    - fileExtension: text
+      ispwType: TEXT
+  - path: \WDLG
+    types:
+    - fileExtension: wdlg
+      ispwType: WDLG
+  port: 16666
+  readWriteTimeout: 30
+  runtimeConfig: ISPP
+  stream: PLAY
+  subAppl: GPLAY

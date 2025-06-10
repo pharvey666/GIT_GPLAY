@@ -37,7 +37,6 @@ node {
     ispwOperation connectionId: '925c5699-8617-42b8-b43d-409dcc77e122', 
     credentialsId: 'dfb1f0d7-38e2-4b57-a8d7-82df70a7eee7', 
     ispwAction: 'BuildAssignment', 
-    ispwRequestBody: '''buildautomatically=true 
-'''
+    ispwRequestBody: '''buildautomatically=true'''
   }
 }

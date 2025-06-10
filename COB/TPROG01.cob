@@ -22,6 +22,7 @@
 002200*  DD/MM/YY  PROGRAMMER  CHANGES
 002300*  ********  **********  *******
 002400*  96/01/24  ISPW        NEW PROGRAM
+      *  10/06/25  PH          new comment
 002500* ======================================================
 002600 ENVIRONMENT DIVISION.
 002700 CONFIGURATION SECTION.
